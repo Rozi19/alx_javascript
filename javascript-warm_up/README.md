@@ -32,3 +32,10 @@ You must use a loop (while, for, etc.)<br>
 Update this script to replace the value 12 with 89:
 <br>
 You are not allowed to use var<br>
+<h1>4. Add file</h1>
+<br>
+Write a function that returns the addition of 2 integers.
+<br>
+The function must be visible from outside<br>
+The name of the function must be add<br>
+You are not allowed to use var<br>
