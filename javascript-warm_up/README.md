@@ -57,3 +57,8 @@ Write a function that increments and calls a function.
 The function must be visible from outside<br>
 Prototype: function (number, theFunction)<br>
 You are not allowed to use var<br>
+<h1>8. Increment object</h1>
+<br>
+Update this script by adding a new function incr that increments the integer value.
+<br>
+You are not allowed to use var
