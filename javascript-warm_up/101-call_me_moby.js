@@ -6,5 +6,5 @@ function callMeMoby(x, theFunction){
     }
 }
 module.exports = {
-    add
+    callMeMoby
 };
