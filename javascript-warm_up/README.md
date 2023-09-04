@@ -43,3 +43,10 @@ You are not allowed to use var<br>
 <br>
 Write a file that modifies the value of myVar to 333
 <br>
+<h1>6. Call me Moby</h1>
+<br>
+Write a function that executes x times a function.
+<br>
+The function must be visible from outside<br>
+Prototype: function (x, theFunction)<br>
+You are not allowed to use var<br>
