@@ -39,3 +39,7 @@ Write a function that returns the addition of 2 integers.
 The function must be visible from outside<br>
 The name of the function must be add<br>
 You are not allowed to use var<br>
+<h1>5. Const or not const</h1>
+<br>
+Write a file that modifies the value of myVar to 333
+<br>
