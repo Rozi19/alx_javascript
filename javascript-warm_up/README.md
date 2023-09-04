@@ -50,3 +50,10 @@ Write a function that executes x times a function.
 The function must be visible from outside<br>
 Prototype: function (x, theFunction)<br>
 You are not allowed to use var<br>
+<h1>7. Add me maybe</h1>
+<br>
+Write a function that increments and calls a function.
+<br>
+The function must be visible from outside<br>
+Prototype: function (number, theFunction)<br>
+You are not allowed to use var<br>
