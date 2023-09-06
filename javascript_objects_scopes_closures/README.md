@@ -45,3 +45,11 @@ You must use the class notation for defining your class
 <br>Create an instance method called rotate() that exchanges the width and the height of the rectangle
 <br>Create an instance method called double() that multiples the width and the height of the rectangle by 2
 <br>
+
+<h1>5. Square #0</h1>
+<br>
+Write a class Square that defines a square and inherits from Rectangle of 4-rectangle.js:
+<br>
+You must use the class notation for defining your class and extends<br>
+The constructor must take 1 argument: size<br>
+The constructor of Rectangle must be called (by using super())<br>
