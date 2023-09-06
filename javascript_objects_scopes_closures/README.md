@@ -31,3 +31,17 @@ Initialize the instance attribute width with the value of w<br>
 Initialize the instance attribute height with the value of h<br>
 If w or h is equal to 0 or not a positive integer, create an empty object<br>
 Create an instance method called print() that prints the rectangle using the character X<br>
+
+<h1>4. Rectangle #4</h1>
+<br>
+Write a class Rectangle that defines a rectangle:
+<br>
+You must use the class notation for defining your class
+<br>The constructor must take 2 arguments: w and h
+<br>Initialize the instance attribute width with the value of w
+<br>Initialize the instance attribute height with the value of h
+<br>If w or h is equal to 0 or not a positive integer, create an empty object
+<br>Create an instance method called print() that prints the rectangle using the character X
+<br>Create an instance method called rotate() that exchanges the width and the height of the rectangle
+<br>Create an instance method called double() that multiples the width and the height of the rectangle by 2
+<br>
