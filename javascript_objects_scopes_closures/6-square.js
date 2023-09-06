@@ -5,9 +5,9 @@ class Square extends square{
     charPrint(c){
 
         if (c === undefined){
-            for (let j = 0; j < this.size; j++)
+            for (let j = 0; j < size; j++)
             {
-                for(let i = 0; i < this.size; i++) {
+                for(let i = 0; i < size; i++) {
                     process.stdout.write("X" + "");
                 }
                 console.log()
@@ -15,9 +15,9 @@ class Square extends square{
         }
 
         else {
-            for (let j = 0; j < this.size; j++)
+            for (let j = 0; j < size; j++)
             {
-                for(let i = 0; i < this.size; i++) {
+                for(let i = 0; i < size; i++) {
                     process.stdout.write(c + "");
                 }
                 console.log()
