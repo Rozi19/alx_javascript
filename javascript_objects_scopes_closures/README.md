@@ -4,3 +4,11 @@
 Write an empty class Rectangle that defines a rectangle:
 <br>
 You must use the class notation for defining your class<br>
+<h1>1. Rectangle #1</h1>
+<br>
+Write a class Rectangle that defines a rectangle:
+<br>
+You must use the class notation for defining your class<br>
+The constructor must take 2 arguments w and h<br>
+Initialize the instance attribute width with the value of w<br>
+Initialize the instance attribute height with the value of h<br>
