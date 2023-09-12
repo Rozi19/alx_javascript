@@ -17,9 +17,6 @@ requ.get(url, function (error, response, body) {
           }
         }
       });
-      
-      Object.entries(completedTasksByUser).forEach(([userId, count]) => {
-        console.log(userId, count); 
+      console.log(completedTasksByUser); 
 })
 
-})
