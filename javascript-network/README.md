@@ -13,3 +13,10 @@ Write a script that prints the title of a Star Wars movie where the episode numb
 The first argument is the movie ID<br>
 You must use the Star wars API with the endpoint https://swapi-api.alx-tools.com/api/films/:id<br>
 You must use the module request<br>
+<h1>2. Star wars Wedge Antilles</h1>
+<br>
+Write a script that prints the number of movies where the character “Wedge Antilles” is present.
+<br>
+The first argument is the API URL of the Star wars API: https://swapi-api.alx-tools.com/api/films/<br>
+Wedge Antilles is character ID 18 - your script must use this ID for filtering the result of the API<br>
+You must use the module request<br>
