@@ -20,3 +20,11 @@ Write a script that prints the number of movies where the character “Wedge Ant
 The first argument is the API URL of the Star wars API: https://swapi-api.alx-tools.com/api/films/<br>
 Wedge Antilles is character ID 18 - your script must use this ID for filtering the result of the API<br>
 You must use the module request<br>
+<h1>3. Loripsum</h1>
+<br>
+Write a script that gets the contents of a webpage and stores it in a file.
+<br>
+The first argument is the URL to request<br>
+The second argument the file path to store the body response<br>
+The file must be UTF-8 encoded<br>
+You must use the module request<br>
