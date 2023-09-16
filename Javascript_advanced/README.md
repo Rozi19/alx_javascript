@@ -21,3 +21,14 @@ creates a function inception that alerts the content of the variable globalVaria
 calls the function inception<br>
 calls the function inner<br>
 Call the function outer<br>
+<h1>2. Closure</h1>
+<br>
+Write a function named welcomeMessage:
+<br>
+It accepts one argument fullName (string)<br>
+It should be a closure for an alert displaying Welcome fullName<br>
+After this function definition, create three variables:
+<br>
+guillaume contains a call welcomeMessage with Guillaume as argument<br>
+alex contains a call welcomeMessage with Alex as argument<br>
+fred contains a call welcomeMessage with Fred as argument<br>
