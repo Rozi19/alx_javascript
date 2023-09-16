@@ -32,3 +32,13 @@ After this function definition, create three variables:
 guillaume contains a call welcomeMessage with Guillaume as argument<br>
 alex contains a call welcomeMessage with Alex as argument<br>
 fred contains a call welcomeMessage with Fred as argument<br>
+<h1>3. Closure and loops</h1>
+<br>
+Write a function named createClassRoom:
+<br>
+It takes into argument numbersOfStudents (number)<br>
+Inside, it contains a function studentSeat, that takes into argument seat (number) and returns a function that returns the seat number<br>
+After the definition of studentSeat, create and populate a variable students (array)<br>
+Using a loop from 0 to numbersOfStudents, pass the number of iteration + 1 to studentSeat and add its return value to the students array<br>
+Returns the students array<br>
+Create a closure classRoom, calling createClassRoom with 10 students<br>
