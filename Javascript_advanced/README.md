@@ -42,3 +42,21 @@ After the definition of studentSeat, create and populate a variable students (ar
 Using a loop from 0 to numbersOfStudents, pass the number of iteration + 1 to studentSeat and add its return value to the students array<br>
 Returns the students array<br>
 Create a closure classRoom, calling createClassRoom with 10 students<br>
+<h1>4. Complex Closure</h1>
+<br>
+Create a function divideBy:
+<br>
+It takes into argument firstNumber (number)<br>
+It returns a function that takes into argument secondNumber (number)<br>
+It returns the second number divided by the first number<br>
+Create a function addBy:
+<br>
+It takes into argument firstNumber (number)<br>
+It returns a function that takes into argument secondNumber (number)<br>
+It returns the sum of the two numbers<br>
+Create four closures:
+<br>
+addBy100, that uses the function addBy with the number 100<br>
+addBy1000, that uses the function addBy with the number 1000<br>
+divideBy10, that uses the function divideBy with the number 10<br>
+divideBy100, that uses the function divideBy with the number 100<br>
