@@ -60,3 +60,21 @@ addBy100, that uses the function addBy with the number 100<br>
 addBy1000, that uses the function addBy with the number 1000<br>
 divideBy10, that uses the function divideBy with the number 10<br>
 divideBy100, that uses the function divideBy with the number 100<br>
+
+<h1>5. Changing DOM with closure</h1>
+<br>
+Create a function named changeMode:
+<br>
+It accepts 5 arguments size (number), weight (string), transform (string), background (string), color (string)<br>
+Using closure, it changes the style of the entire page and set the font-size, font-weight, text-transform, background-color, and color<br>
+Write a function named main:
+<br>
+Set a variable named spooky that passes the arguments 9, bold, uppercase, pink, green to changeMode<br>
+Set a variable named darkMode that passes the arguments 12, bold, capitalize, black, white to changeMode<br>
+Set a variable named screamMode that passes the arguments 12, normal, lowercase, white, black to changeMode<br>
+Add a paragraph to the body of the page with the text Welcome Holberton!<br>
+Add a button to the body with the text Spooky<br>
+Add a button to the body with the text Dark mode<br>
+Add a button to the body with the text Scream mode<br>
+When clicking on each button, the page CSS should change to the different themes you created previously<br>
+Call the main function<br>
