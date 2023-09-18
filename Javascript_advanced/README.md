@@ -78,3 +78,26 @@ Add a button to the body with the text Dark mode<br>
 Add a button to the body with the text Scream mode<br>
 When clicking on each button, the page CSS should change to the different themes you created previously<br>
 Call the main function<br>
+
+<h1>6. Private methods with closure</h1>
+<br>
+Write a module named studentHogwarts:
+<br>
+It contains two variables privateScore set to 0, and name set to null<br>
+It contains one private method changeScoreBy, it takes points in argument and add it to privateScore<br>
+The module gives access to four public methods (return an object):<br>
+setName, it takes into argument newName, and set the private variable name<br>
+rewardStudent, it calls the method changeScoreBy with 1<br>
+penalizeStudent, it calls the method changeScoreBy with -1<br>
+getScore, it returns name: score (ex: Harry: 14)<br>
+Create one variable named harry, that is an instance of studentHogwarts:
+<br>
+Set the name of the object to Harry<br>
+Reward the student four times<br>
+Log to the console the name and score<br>
+Create one variable named draco, that is an instance of studentHogwarts:
+<br>
+Sets the name of the object to Draco<br>
+Reward the student one time<br>
+Penalize the student three times<br>
+Log to the console the name and score<br>
