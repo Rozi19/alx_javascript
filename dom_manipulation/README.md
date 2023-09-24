@@ -18,3 +18,15 @@ Use the HTML code below as the starting point and add your JavaScript code as an
 <br>
 Use the DOM API to modify the format of the <p class="highlight"> element to make the content boldened<br>
 Make use of document.querySelectorAll<br>
+
+<h1>2. Modifying Element Content, Attributes, and Styles</h1>
+<br>
+Write a JavaScript program that demonstrates the use of selectors to select specific HTML elements.<br>
+
+Write JavaScript code to select the <img> element using its id and store it in a variable.
+<br>Use the DOM API to modify the following:
+<br>the src to https://picsum.photos/200/301,
+<br>the alt to New image
+<br>the border style to 2px solid red
+<br>Make use of document.getElementById
+<br>
