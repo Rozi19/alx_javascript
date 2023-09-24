@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cookie Example</title>
+</head>
+<body>
+    <h1>Login to the website</h1>
+  
+  <input type="text" id="firstname" placeholder="First Name">
+  <input type="email" id="email" placeholder="Email">
+  <button onclick="setCookies()">Log me in</button>
+
+  <h1>Cookies</h1>
+  <button onclick="showCookies()">Show the cookies</button>
+  
+  <script>
+    function setCookies() {
+      var firstnameInput = document.getElementById("firstname");
+      var emailInput = document.getElementById("email");
+
+      var firstname = firstnameInput.value;
+      var email = emailInput.value;
+
+      document.cookie = "firstname=" + firstname;
+      document.cookie = "email=" + email;
+
+      firstnameInput.value = "";
+      emailInput.value = "";
+
+      alert("Cookies set successfully!");
+    }
+
+    function showCookies() {
+      var cookies = document.cookie.split(";");
+
+      var paragraph = document.createElement("p");
+      paragraph.innerHTML = "Cookies: " + cookies.join("<br>");
+      
+      document.body.appendChild(paragraph);
+    }
+  </script>
+</body>
+</html>
