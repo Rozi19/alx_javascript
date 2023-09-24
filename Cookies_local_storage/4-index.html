@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookies</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="welcomeMessage">Welcome to the website!</h1>
+    <form id="loginForm" class="hidden">
+        <h2>Login</h2>
+        <input type="text" placeholder="First Name" id="firstname">
+        <input type="text" placeholder="Email" id="email">
+        <button onclick="setCookiesAndShowWelcomeMessage()">Login</button>
+    </form>
+
+    <script>
+        function showForm() {
+            var welcomeMessage = document.getElementById("welcomeMessage");
+            var loginForm = document.getElementById("loginForm");
+
+            welcomeMessage.style.display = "none";
+            loginForm.classList.remove("hidden");
+        }
+
+        function showWelcomeMessage() {
+            var welcomeMessage = document.getElementById("welcomeMessage");
+            var loginForm = document.getElementById("loginForm");
+
+            welcomeMessage.style.display = "block";
+            loginForm.classList.add("hidden");
+        }
+
+        function deleteCookiesAndShowForm() {
+            Cookies.remove("Firstname");
+            Cookies.remove("Email");
+            showForm();
+        }
+
+        function setCookiesAndShowWelcomeMessage() {
+            var firstName = document.getElementById("firstname").value;
+            var email = document.getElementById("email").value;
+
+            Cookies.set("Firstname", firstName);
+            Cookies.set("Email", email);
+
+            showWelcomeMessage();
+        }
+    </script>
+
+    <button onclick="deleteCookiesAndShowForm()">Delete Cookies and Show Form</button>
+</body>
+</html>
