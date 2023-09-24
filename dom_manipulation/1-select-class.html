@@ -13,8 +13,14 @@
   <p>This is a normal paragraph.</p>
 
   <script>
-    let paragraph= document.querySelectorAll("p.highlight");
-    paragraph[0].style.fontWeight = "bolder";
+    let paragraph= document.querySelectorAll(".highlight");
+    
+    paragraph.forEach(function (Para) {
+
+      Para.style.fontWeight = "bold";
+
+    });
+    
     
   </script>
 </body>
