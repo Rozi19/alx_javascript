@@ -30,3 +30,14 @@ Write JavaScript code to select the <img> element using its id and store it in a
 <br>the border style to 2px solid red
 <br>Make use of document.getElementById
 <br>
+
+<h1>3. Creating, Appending, and Removing Elements</h1>
+<br>
+Write a JavaScript program that demonstrates the creation, appending, and removal of elements using the DOM.
+<br>
+Use the HTML code below as the starting point and add your JavaScript code as an internal script tag:<br>
+Write JavaScript code to select the container element using its id and store it in a variable.<br>
+Use the DOM API to create a new <p> element, and add New paragraph as its content<br>
+Append the newly created elements to the container element.<br>
+Add a button that removes/hides the newly created paragraph when first click and shows it when clicked again<br>
+Verify that the program successfully creates, appends, and toggles elements when the HTML file is opened in a browser.<br>
