@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <div id="list"></div>
+        
+        <script>
+
+            let availableItems = ["Shampoo", "Soap", "Sponge", "Water"];
+
+            const issessionStorageEnable = () => {
+                try {
+                    const key = `__storage__test`;
+                    sessionStorage.setItem(key, null);
+                    sessionStorage.removeItem(key);
+                    return true;
+                }
+                catch (e) {
+                    return false;
+                }
+            };
+
+            if(!issessionStorageEnable())
+            {
+                alert("Sorry, your browser does not support Web storage. Try again with a better one");
+            }
+            else{
+
+                createStore();
+
+                displayCart();
+            }
+
+            function addItemToCart(item)
+            {
+                sessionStorage.setItem(item, true);
+            }
+
+            function createStore()
+            {
+                var List = document.getElementById("list");
+                var ul = document.createElement("ul");
+                
+                for (let i = 0; i < availableItems.length; i++)
+                {
+                    var li = document.createElement("li");
+                    li.innerHTML = availableItems[i];
+                    li.addEventListener("click", function() {
+                        addItemToCart(availableItems[i]);
+                    });
+                    ul.appendChild(li);
+                }
+                List.appendChild(ul);
+        
+            }
+
+            function displayCart()
+            {
+                var cart = document.getElementById("list");
+                var paragraph = document.createElement("p");
+                var cartItems = Object.keys(sessionStorage);
+
+                if (cartItems.length > 0) {
+                paragraph.innerHTML = "You previously had " + cartItems.length + " items in your cart.";
+                cart.appendChild(paragraph);
+                }
+            }
+        </script>
+    </body>
+</html>
