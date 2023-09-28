@@ -9,7 +9,7 @@ function validateEmail() {
       if (!isRequired(emailValue)) {
         showError('Email cannot be blank.');
       } else if (!isEmailValid(emailValue)) {
-        showError('Email is not valid.');
+        showError('Please enter a valid email address.');
       } else {
         showSuccess();
         valid = true;
