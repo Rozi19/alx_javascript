@@ -75,3 +75,25 @@ Check if any of the fields are empty. If any field is empty, prevent the form su
 <br>
 Note: You may need to use event listeners or other appropriate techniques to detect changes in the dropdown menu selection and handle form submission.<br>
 
+<h1>3. Form Submission Handling</h1>
+<br>
+Implement JavaScript to handle form submission and perform validation before submitting.
+<br>
+Write a function called handleFormSubmit to handle the form submission.
+<br>
+Your JavaScript should be written in a separate file and used as an external script in the HTML code.
+<br>
+Add an event listener to the form element to listen for the “submit” event and call the handleFormSubmit function.
+<br>
+Inside the handleFormSubmit function, prevent the default form submission behavior using event.preventDefault().
+<br>
+Retrieve the values entered in the form fields using JavaScript.
+<br>
+Use JavaScript validation to ensure that all required fields are filled.
+<br>
+Check if the “name” and “email” fields are filled. If any of them are empty, display the error message “Please fill in all required fields”.
+<br>
+If all validations pass, display a success message “Form submitted successfully!” .
+<br>
+If any validations fail, do not submit the form and allow the user to correct the errors before submitting again.<br>
+
